@@ -4,15 +4,15 @@
 
 </head>
 <body>
-<div style="background-color: var(--bg); color: black; padding: 20px;">
+<div style=" color: black; padding: 20px;">
   <h1 style='color:#d2c4b1;text-transform:uppercase'>Welcome to My Project</h1>
-  <p style='color:white; '>
+  <p style='color:black; '>
   This is my TypeScript cheatsheet that should help me or anyone else to quickly find hints, 
   </br>syntax and/or correct naming.</p>
 
-<p style='color:white; font-weight: bold;'>- Inside < src > folder is couple of codes as examples.</p>
+<p style='color:black; font-weight: bold;'>- Inside < src > folder is couple of codes as examples.</p>
 <h3 style='color:var(--title)'>#Basic Types</h3>
-  <pre style="background-; color: black; padding-left: 50px;">
+  <pre style=" color: black; padding-left: 50px;">
 <code>
     let isDone: boolean = false;
     let age: number = 30;
@@ -25,7 +25,7 @@
 </pre>
 
 <h3 style='color:var(--title)'># Variable Declarations</h3>
-<pre style="background-color: var(--box_color); color: white; padding-left: 10px;">
+<pre style=" color: black; padding-left: 10px;">
 <code>
     const PI: number = 3.14; // Immutable variable
     let mutableNumber: number = 42; // Mutable variable
@@ -33,7 +33,7 @@
 </pre>
 
 <h3 style='color:var(--title)'>## Interfaces</h3>
-<pre style="background-color: var(--box_color); color: white; padding-left: 10px;">
+<pre style=" color: black; padding-left: 10px;">
 <code>
     interface User {
         name: string;
@@ -47,7 +47,7 @@
 </pre>
 
 <h3 style='color:var(--title)'># Clases</h3>
-<pre style="background-color: var(--box_color); color: white; padding-left: 10px;">
+<pre style=" color: black; padding-left: 10px;">
 <code>
     class Animal {
     privare name: string; // Privare property
@@ -85,7 +85,7 @@
 </pre>
 
 <h3 style='color:var(--title)'># Functions</h3>
-<pre style="background-color: var(--box_color); color: white; padding-left: 10px;">
+<pre style=" color: black; padding-left: 10px;">
 <code>
     function add(x: number, y: number): number {
         return x + y;
@@ -99,7 +99,7 @@
 </code>
 </pre>
 <h3 style='color:var(--title)'># Generics</h3>
-<pre style="background-color: var(--box_color); color: white; padding-left: 10px;">
+<pre style=" color: black; padding-left: 10px;">
 <code>
     function identity<T>(arg: T): T {
         return arg;
@@ -110,14 +110,14 @@
 </code>
 </pre>
 <h3 style='color:var(--title)'># Type Assertions</h3>
-<pre style="background-color: var(--box_color); color: white; padding-left: 10px;">
+<pre style=" color: black; padding-left: 10px;">
 <code>
     let someValue: any = "this is a string";
     let strLength: number = (someValue as string).length;
 </code>
 </pre>
 <h3 style='color:var(--title)'># Modules</h3>
-<pre style="background-color: var(--box_color); color: white; padding-left: 10px;">
+<pre style=" color: black; padding-left: 10px;">
 <code>
     // math.ts
     export function add(x: number, y: number): number {
@@ -130,7 +130,7 @@
 ---
 
 </span>
-<pre style="background-color: var(--box_color); color: white; padding-left: 10px;">
+<pre style=" color: black; padding-left: 10px;">
 <code>
     // main.ts
     import { add } from "./math";
@@ -138,7 +138,7 @@
 </code>
 </pre>
 <h3 style='color:var(--title)'># Type Aliases</h3>
-<pre style="background-color: var(--box_color); color: white; padding-left: 10px;">
+<pre style=" color: black; padding-left: 10px;">
 <code>
     type StringOrNumber = string | number;
     let sample: StringOrNumber = "Hello";
@@ -146,7 +146,7 @@
 </code>
 </pre>
 <h3 style='color:var(--title)'># Union and Intersection Types</h3>
-<pre style="background-color: var(--box_color); color: white; padding-left: 10px;">
+<pre style=" color: black; padding-left: 10px;">
 <code>
     // Union Type
     let value: string | number = "Hello";
@@ -167,7 +167,7 @@
 </code>
 </pre>
 <h3 style='color:var(--title)'># Type Guards</h3>
-<pre style="background-color: var(--box_color); color: white; padding-left: 10px;">
+<pre style=" color: black; padding-left: 10px;">
 <code>
     function isNumber(value: any): value is number {
         return typeof value === "number";
@@ -183,8 +183,8 @@
 
 </code>
 </pre>
-<h3 style='color:var(--title)'># Async/Await</h3>
-<pre style="background-color: var(--box_color); color: white; padding-left: 10px;">
+<h3 style='color:black'># Async/Await</h3>
+<pre style=" color: black; padding-left: 10px;">
 <code >
     async function fetchData(url: string): Promise<any> {
     const response = await fetch(url);
@@ -199,9 +199,8 @@
 </code>
 
 </pre>
-<span style='color:var(--title)'>Created by Tomas matusek, 2024</span>
+<span style='color:black'>Created by Tomas matusek, 2024</span>
 </div>
 
 </body>
 </html>
-# TypeScript-cheatsheet
