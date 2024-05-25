@@ -12,15 +12,15 @@
 
 <p style='color:white; font-weight: bold;'>- Inside < src > folder is couple of codes as examples.</p>
 <h3 style='color:var(--title)'>#Basic Types</h3>
-  <pre style="background-color: var(--box_color); color: white; padding-left: 50px;">
+  <pre style="background-; color: black; padding-left: 50px;">
 <code>
-let isDone: boolean = false;
-let age: number = 30;
-let username: string = "John";
-let list: number[] = [1, 2, 3];
-let tuple: [string, number] = ["hello", 10];
-enum Color { Red, Green, Blue }
-let c: Color = Color.Green;
+    let isDone: boolean = false;
+    let age: number = 30;
+    let username: string = "John";
+    let list: number[] = [1, 2, 3];
+    let tuple: [string, number] = ["hello", 10];
+    enum Color { Red, Green, Blue }
+    let c: Color = Color.Green;
 </code>
 </pre>
 
