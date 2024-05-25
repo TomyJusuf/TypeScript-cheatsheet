@@ -1,33 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-  :root{
-    --bg:#143b48;
-    --title:#c18d4d;
-    --box_color:#357581;
-  }
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #546b73; /* Background color for the entire document */
-      color: white; /* Default text color */
-    }
-    .container {
-      padding: 20px;
-    }
-    pre code {
-      background-color: black;
-      color: white;
-      padding: 10px;
-      display: block; /* Ensure block display for code blocks */
-    }
-    h1, h3, p {
-      color: white;
-    }
-  </style>
+
 </head>
 <body>
 <div style="background-color: var(--bg); color: black; padding: 20px;">
