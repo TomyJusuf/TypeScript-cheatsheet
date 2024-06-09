@@ -18,4 +18,4 @@ let fruit: string[] = ['apple', 'orange', 'melone'];
 
 let randomValue: any[] = ['babe'];
 let emptyValue: [] = []; // can not be assigneble
-let array: (string | number)[] = ['apple', 5]; // type must be my parantesis (string|number) other ways it didn't work
+let array: (string | number)[] = ['apple', 5]; // type must be in parantesis (string|number) other ways it didn't work
