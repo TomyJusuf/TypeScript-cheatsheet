@@ -199,7 +199,7 @@
 </code>
 
 </pre>
-<span style='color:black'>Created by Tomas matusek, 2024</span>
+
 </div>
 
 </body>
