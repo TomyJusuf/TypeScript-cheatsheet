@@ -10,7 +10,7 @@
   This is my TypeScript cheatsheet that should help me or anyone else to quickly find hints, 
   </br>syntax and/or correct naming.</p>
 
-<p style='color:black; font-weight: bold;'>- Inside < src > folder is couple of codes as examples.</p>
+<p style='color:black; font-weight: bold;'>- Inside  ./src  folder is couple examples.</p>
 <h3 style='color:var(--title)'>#Basic Types</h3>
   <pre style=" color: black; padding-left: 50px;">
 <code>
